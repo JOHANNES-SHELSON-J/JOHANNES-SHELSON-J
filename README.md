@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=M.S.+CIS+Graduate+%7C+Chennai%2C+India;Open+to+Data+Analytics+%26+Engineering+Roles;ETL+Pipelines+%7C+Dashboards+%7C+ML+Models;SQL+%2B+Python+%2B+Power+BI+%2B+Snowflake+%2B+AWS" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=M.S.+CIS+Graduate+%7C+Chennai%2C+India;Open+to+Data+Analyst+%26+BI+Roles;ETL+Pipelines+%7C+Dashboards+%7C+ML+Models;SQL+%2B+Python+%2B+Power+BI+%2B+Snowflake+%2B+AWS" alt="Typing SVG"/>
 
 <a href="http://www.linkedin.com/in/johannes-johnson-882636257"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:johannes.shelson12@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
@@ -21,7 +21,7 @@
 
 💼 Open to entry-level opportunities in Data Analytics, Data Engineering, Business Intelligence, Business Analysis, and Python/SQL development, primarily in Chennai.
 
-I build data-driven solutions using Python, SQL, BI dashboards, and cloud/data engineering tools. Recent portfolio work includes an AWS–Snowflake CDN analytics platform and an Apache Airflow pipeline for monitoring FDA drug recalls against synthetic patient records. I also bring experience from a data science research internship and graduate teaching assistantship.
+I build data-driven solutions using Python, SQL, BI dashboards, and cloud/data engineering tools. My experience includes a data science research internship, graduate teaching assistantship, and hands-on analytics and software projects.
 <img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
 class JohannesJohnson:
@@ -67,12 +67,7 @@ Cloud & Big Data
 
 
 
-
-
-
-
 Databases
-
 
 
 
@@ -172,8 +167,6 @@ SDLC Agile/Scrum SQL System Design
 <div align="center">
 
 Project	Stack	Highlights
-☁️ CDN Analytics — AWS & Snowflake Data Platform	Python · AWS S3 · AWS Glue (PySpark) · Athena · Snowflake · SQL	Built an end-to-end cloud analytics platform using 930,000 synthetic CDN request logs partitioned by date in S3. Used AWS Glue to remove 18,487 missing-latency records and publish 911,513 clean Parquet records; modeled a Snowflake star schema with request facts, region/customer/date dimensions and reusable KPI views. Reconciled row counts and data-volume totals between Athena and Snowflake; investigated a simulated 3× regional latency incident using p95 latency and cache-hit metrics.
-💊 Automated FDA Drug Recall Monitoring — Apache Airflow	Python · Apache Airflow · Pandas · openFDA API · Parquet · SQLite · SQL · Regex	Built a daily 6 AM Airflow ETL pipeline to compare 42,989 synthetic prescription records (1,107 patients) with 824 real FDA recall entries. Standardized medication names, matched recalls against active prescriptions, and identified 439 distinct potentially affected patients in the sample. Orchestrated parallel extraction, API retries, Parquet hand-offs, idempotent SQLite loading, quality checks and SQL reporting. Portfolio prototype using synthetic patient data—not a clinical alerting system.
 🛰️ Privacy-Aware ALPR Routing System	Python · PostgreSQL · PostGIS · pgRouting · Flutter · FastAPI	Privacy-first navigation minimizing exposure to ALPR/Flock cameras; 4 routing models (Dijkstra, Lexicographic, Weighted Risk, Corridor Scanning) benchmarked; Flutter UI with 3 privacy modes + route comparison panel
 📈 Job Title Data Aggregator	Python · SQL · Pandas · NLP · PostgreSQL	Processed 50,000+ job records from BLS & O*NET; standardized 5,000+ inconsistent titles via NLP + fuzzy matching for +35% consistency; cut manual comparison effort ~50% across 200+ roles
 🍕 Pizza Sales Analytics Dashboard	SQL · Power BI · Power Query · DAX	Interactive dashboard over 12,000+ transactions tracking Revenue, Order Volume, Category Performance & Sales Trends; automated KPI reporting cut manual Excel work ~40%
@@ -192,8 +185,6 @@ Project	Stack	Highlights
 🔍	50,000+ Job Records Processed	NLP + fuzzy matching standardized 5,000+ titles, boosting consistency +35%
 ⚙️	Efficiency Gains	Reduced manual analysis effort by 40–50% across multiple BI & data projects
 🎓	Graduate Teaching Assistant	Mentored 60+ students, graded 100+ submissions, lifted documentation clarity ~20%
-☁️	CDN Cloud Analytics	Cleaned 930,000 synthetic request logs to 911,513 curated records in S3/Glue; reconciled Athena and Snowflake
-💊	Airflow Data Pipeline	Automated recall checks using 42,989 synthetic prescriptions and openFDA data, with retries and quality gates
 
 
 </div>
